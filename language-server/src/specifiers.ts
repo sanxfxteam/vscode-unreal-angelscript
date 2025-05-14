@@ -39,6 +39,7 @@ export let ASPropertySpecifiers : any = {
     "BindWidget": "Automatically bind this property to the widget with the same name within child UMG blueprints",
     "BindWidgetAnim": "Automatically bind this property to the widget animation with the same name within child UMG blueprints",
     "SaveGame": "Property should be serialized for save games",
+    "BindComponent": "Automatically bind this property to the component with the same name within child actor blueprints",
 };
 
 export let ASPropertySpecifiers_HAZE : any = {
@@ -54,7 +55,7 @@ export let ASPropertySpecifiers_NO_HAZE : any = {
 export let ASPropertySubSpecifiers : any = {
     // Note: subspecifier keys should be lowercase so they can be found consistently
     "meta": {
-        "InlineEditCondition": "When this boolean is used as an edit condition, display it inline to the left of the conditional property",
+        "InlineEditConditionToggle": "When this boolean is used as an edit condition, display it inline to the left of the conditional property",
         "EditCondition": "Only allow this property to be edited depending on the state of other properties",
         "EditConditionHides": "Hide this property completely when its EditCondition is false",
         "MakeEditWidget": "Create a movable 3D widget in the world for transforms and vectors",
